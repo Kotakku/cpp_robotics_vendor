@@ -16,7 +16,7 @@ macro(build_cpp_robotics)
   include(ExternalProject)
   externalproject_add(cpp_robotics-ext
     GIT_REPOSITORY https://github.com/Kotakku/cpp_robotics
-    GIT_TAG 87ea70838815b2653badab81323c0eb42bdd2cf1
+    GIT_TAG develop
     TIMEOUT 6000
     ${cmake_commands}
     CMAKE_ARGS
